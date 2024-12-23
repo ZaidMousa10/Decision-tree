@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Mushroom {
-    private String edible; // e.g., "EDIBLE"
+    private String edible; 
     private String capShape;
     private String capSurface;
     private String capColor;
@@ -59,7 +59,6 @@ public class Mushroom {
         this.habitat = habitat;
     }
 
-    // Getters and setters (Optional, depending on use case)
 
     @Override
     public String toString() {
